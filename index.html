@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Cronometro</title>
+</head>
+<body>
+    <audio src="./alarm.mp3" id="sound" style="display: none;"></audio>
+
+    <div class="container">
+        <h1>Cronometro <i class="fa fa-clock-rotate-left"></i></h1>
+        <div class="tempo">
+            <h2>Minutos</h2>
+            <select name="minutos" id="minutos"></select>
+
+            <h2>Segundos</h2>
+            <select name="segundos" id="segundos"></select>
+         </div><!--tempo-->
+        <button id="iniciar">Iniciar</button>
+        <button id="parar">Parar</button>
+
+        <div id="display">
+            <h3></h3>
+        </div>
+        <div id="alerta">
+            <h1></h1>
+        </div>
+
+    </div>
+
+    <script src="./scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/f437a17a8c.js" crossorigin="anonymous"></script>
+</body>
+</html>

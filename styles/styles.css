@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.8);
+    
+   
+}
+
+.container{
+    width: auto;
+    height: 830px;
+    text-align: center;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    padding: 155px 2% ;
+    color: #fff
+}
+
+.container h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.tempo{
+    padding: 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+select:focus {
+     box-shadow: 0 0 0 0; 
+     border: 0 none; 
+     outline: 0; 
+}
+
+.tempo h2{
+    font-size: 40px;
+   
+}
+
+.tempo select{
+    width: 6%;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button{
+    background: #069;
+    color:white;
+    font-size: 32px;
+    padding:8px 20px;
+    cursor: pointer;
+    border:0;
+    border-radius: 10px;
+    transition:background-color 0.6s;
+}
+
+button:hover{
+    background-color:rgb(62, 111, 136) ;
+    border-bottom: 3px solid #fff;
+}
+
+#display{
+    font-size: 70px;
+    color: orangered
+
+}
+#alerta{
+font-size: 50px;
+color: red;
+text-transform: uppercase;
+}
+
+@media screen and (max-width:630px) {
+    .container{
+        padding: 0;
+        height: 667px;
+    }
+    .tempo h2{
+      
+        font-size: 50px;
+    }
+
+    .tempo select{
+        
+        margin: 30px;
+        width: 20%;
+        height: 36px;
+        font-size: 30px;
+    }
+    
+
+    button{
+    
+    }
+
+
+    #display{
+        font-size: 25px;
+    
+    }
+    #alerta{
+    font-size: 30px;
+
+    }
+}
